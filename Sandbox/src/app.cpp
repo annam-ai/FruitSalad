@@ -1,11 +1,16 @@
-namespace FruitSalad {
+#include <FruitSalad.h>
 
-	__declspec(dllexport) void Print();
+class KiwiMango : public FruitSalad::Application
+{
+public:
+	KiwiMango() {
 
-}
+	}
+	~KiwiMango() {
 
-void main() {
+	}
+};
 
-	FruitSalad::Print();
-
+FruitSalad::Application* FruitSalad::CreateApplication() {
+	return new KiwiMango;
 }
