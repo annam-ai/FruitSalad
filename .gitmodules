@@ -1,0 +1,3 @@
+[submodule ".\\FruitSalad\\vendor\\spdlog"]
+	path = .\\FruitSalad\\vendor\\spdlog
+	url = https://github.com/gabime/spdlog

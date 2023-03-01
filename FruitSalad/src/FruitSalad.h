@@ -2,8 +2,9 @@
 
 // Only for use by FruitSalad applications
 
-//#include <stdio.h> anything I need, I'll include here
+//anything I need, I'll include here
 #include "FruitSalad/Application.h"
+#include "FruitSalad/Log.h"
 
 // Entry Point ----------------------
 

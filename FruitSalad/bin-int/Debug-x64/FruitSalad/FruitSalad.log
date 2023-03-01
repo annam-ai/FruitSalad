@@ -1,0 +1,6 @@
+﻿  Log.cpp
+C:\dev\FruitSalad\FruitSalad\src\FruitSalad\Log.h(18,42): warning C4251: "FruitSalad::Log::s_CoreLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "FruitSalad::Log" verwendet wird
+C:\dev\FruitSalad\FruitSalad\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
+C:\dev\FruitSalad\FruitSalad\src\FruitSalad\Log.h(19,42): warning C4251: "FruitSalad::Log::s_ClientLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "FruitSalad::Log" verwendet wird
+C:\dev\FruitSalad\FruitSalad\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
+  FruitSalad.vcxproj -> C:\dev\FruitSalad\FruitSalad\bin\Debug-x64\FruitSalad\FruitSalad.dll
