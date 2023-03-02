@@ -1,16 +1,16 @@
 #include <FruitSalad.h>
 
-class KiwiMango : public FruitSalad::Application
+class Sandbox : public FruitSalad::Application
 {
 public:
-	KiwiMango() {
+	Sandbox() {
 
 	}
-	~KiwiMango() {
+	~Sandbox() {
 
 	}
 };
 
 FruitSalad::Application* FruitSalad::CreateApplication() {
-	return new KiwiMango;
+	return new Sandbox;
 }
