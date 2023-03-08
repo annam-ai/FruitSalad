@@ -9,3 +9,5 @@
 #else
 #error Fruitsalad only supports Windows!
 #endif
+
+#define BIT(x) (1 << x) // to apply to multiple categories
